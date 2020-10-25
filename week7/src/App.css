@@ -1,3 +1,7 @@
+body {
+  background-color: blanchedalmond;
+}
+
 .App {
   text-align: center;
 }
@@ -35,4 +39,48 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.dropdown {
+  float: right;
+  margin-right: 50px;
+  font-size: 25px;
+}
+
+.counterButtons {
+  float: left;
+  margin-left: 75px;
+  font-size: 25px;
+}
+
+.exercise {
+  float: left;
+  margin-left: 50px;
+  font-size: 25px;
+}
+
+.MiddleText {
+  position: absolute;
+  font-size: 100px;
+  margin-left: 800px;
+  margin-bottom: 500px;
+}
+
+.buttons {
+  font-size: 15px;
+}
+
+.weights {
+  width: 300px;
+  height: 300px;
+  border-radius: 25px;
+  text-align: center;
+}
+
+.weight-container {
+  display: block;
+  margin-top: 250px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
 }
